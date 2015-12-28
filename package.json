@@ -1,0 +1,16 @@
+{
+  "name": "generator-angular-submodule",
+  "version": "1.0.0",
+  "description": "A simple generator to create angular submodule that can be shared between multiple apps",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bartosz Chojnacki <bartosz.chojnacki1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "1.1.1",
+    "yeoman-generator": "0.22.2",
+    "yosay": "1.1.0"
+  }
+}

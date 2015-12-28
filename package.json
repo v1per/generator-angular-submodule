@@ -1,16 +1,32 @@
 {
   "name": "generator-angular-submodule",
-  "version": "1.0.0",
+  "version": "0.0.0-semantically-released",
   "description": "A simple generator to create angular submodule that can be shared between multiple apps",
   "main": "app/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git-cz",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "Bartosz Chojnacki <bartosz.chojnacki1@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "chalk": "1.1.1",
     "yeoman-generator": "0.22.2",
-    "yosay": "1.1.0"
+    "yosay": "1.1.0",
+    "commitizen": "2.4.6",
+    "cz-conventional-changelog": "1.1.5",
+    "semantic-release": "^4.3.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/v1per/generator-angular-submodule.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^4.3.5"
   }
 }

@@ -27,7 +27,10 @@
     "karma-webpack": "1.7.0",
     "phantomjs": "1.9.19",
     "semantic-release": "^4.3.5",
-    "webpack": "1.12.9"
+    "webpack": "1.12.9",
+    "sinon": "1.17.2",
+    "karma-sinon": "1.0.4",
+    "jasmine-sinon": "0.4.0"
   },
   "config": {
     "commitizen": {

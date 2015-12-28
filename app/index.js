@@ -45,7 +45,7 @@ module.exports = generator.Base.extend({
     this.copy('jshintrc', '.jshintrc');
     this.copy('gitignore', '.gitignore');
     this.copy('_karma.conf.js', 'karma.conf.js');
-    this.copy('travis.yml', '.travis.xml');
+    this.copy('travis.yml', '.travis.yml');
     this.fs.copyTpl(
       this.templatePath('_index.js'),
       this.destinationPath('index.js'),
